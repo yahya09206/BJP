@@ -1,9 +1,12 @@
 public class Mantra {
-	public static void main(String args[]){
-		System.out.println("\\\\");
-System.out.println("'");
-System.out.println("\ta\tb\tc");
-System.out.println("\"\"\"");
-System.out.println("C:\nin\the downward spiral");
+	public static void main(String[] args){
+		mantra();
+		System.out.println();
+		mantra();
+	}
+
+	public static void mantra(){
+		System.out.println("There's one thing every coder must understand:");
+		System.out.println("The System.out.println command.");
 	}
 }
