@@ -22,15 +22,16 @@ public class SmallestLargest {
 		int min = n;
 		for(int i = 1; i <= n; i++){
 			System.out.print("Number " + i + ": ");
-			n = console.nextInt();
-			if(max > num){
+			int num = console.nextInt();
+			if(max < num){
 				max = num;
-			}else {
+			}
+			if(min > num) {
 				min = num;
 			}
 		}
-		System.out.println("Smallest = " + num);
-		System.out.println("Largest = " + num);
+		System.out.println("Smallest = " + min);
+		System.out.println("Largest = " + max);
 	}
 
 }
