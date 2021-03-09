@@ -18,16 +18,16 @@ public class SmallestLargest {
 		Scanner console = new Scanner(System.in);
 		System.out.print("How many numbers do you want to enter? ");
 		int n = console.nextInt();
-		int max = n;
-		int min = n;
+		int min = Integer.MAX_VALUE;
+		int max = Integer.MIN_VALUE;
 		for(int i = 1; i <= n; i++){
 			System.out.print("Number " + i + ": ");
 			int num = console.nextInt();
-			if(max < num){
-				max = num;
-			}
-			if(min > num) {
+			if(num < min){
 				min = num;
+			}
+			if(num > max) {
+				max = num;
 			}
 		}
 		System.out.println("Smallest = " + min);
