@@ -15,18 +15,18 @@ public class Dicesum {
 	public static void main(String[] args){
 		diceSum();
 	}
-	public static void diceSum(){
-		Scanner console = new Scanner(System.in);
-		Random rand = new Random();
-		int a = rand.nextInt(6) + 1;
-		int b = rand.nextInt(6) + 1;
-		System.out.print("Desired dice sum: ");
-		int sum = console.nextInt();
-		while(a + b != sum){
-			a = rand.nextInt(6) + 1;
-			b = rand.nextInt(6) + 1;
-			int sumTwo = a + b;
-			System.out.println(a + " and " + b + " = " + sumTwo);
+	public static void diceSum(){
+		Scanner console = new Scanner(System.in);
+		Random rand = new Random();
+		int a = rand.nextInt(6) + 1;
+		int b = rand.nextInt(6) + 1;
+		System.out.print("Desired dice sum: ");
+		int sum = console.nextInt();
+		while(a + b != sum){
+			a = rand.nextInt(6) + 1;
+			b = rand.nextInt(6) + 1;
+			int sumTwo = a + b;
+			System.out.println(a + " and " + b + " = " + sumTwo);
 		}
 
 	}
