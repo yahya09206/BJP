@@ -6,7 +6,12 @@ public class Average {
 	public static void main(String[] args){
 
 	}
-	public static double average(){
-		
+	public static double average(int[] nums){
+		int sum = 0;
+		for(int i = 0; i < nums.length; i++){
+			sum += nums[i + 1];
+		}
+		double average = sum / nums;
+		return average;
 	}
 }
