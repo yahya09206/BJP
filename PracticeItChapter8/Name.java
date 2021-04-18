@@ -8,6 +8,12 @@ public class Name {
 	String lastName;
 	char middleInitial;
 
+	public Name(String firstName, char middleInitial, String lastName){
+		this.firstName = firstName;
+		this.middleInitial = middleInitial;
+		this.lastName = lastName;
+	}
+
 	public String getNormalOrder(){
 		return firstName + " " + middleInitial + ". " + lastName;
 	}
