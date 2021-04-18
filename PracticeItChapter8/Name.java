@@ -21,4 +21,8 @@ public class Name {
 	public String getReverseOrder(){
 		return lastName + ", " + firstName + " " + middleInitial + ".";
 	}
+
+	public String toString(){
+		return firstName + " " + middleInitial + ". " + lastName;
+	}
 }
