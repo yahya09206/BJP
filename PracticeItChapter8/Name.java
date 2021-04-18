@@ -3,8 +3,8 @@ Create a class called Name that represents a person's name. The class should hav
 
 In order for Practice-It to properly test your class, make sure to use exactly the class name and field names described previously. Also make sure to declare your fields using appropriate types.
 */
-class Name {
+public class Name {
 	String firstName;
 	String lastName;
-	String middleInitial;
+	char middleInitial;
 }
