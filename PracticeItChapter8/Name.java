@@ -7,4 +7,12 @@ public class Name {
 	String firstName;
 	String lastName;
 	char middleInitial;
+
+	public String getNormalOrder(){
+		return firstName + " " + middleInitial + ". " + lastName;
+	}
+
+	public String getReverseOrder(){
+		return lastName + ", " + firstName + " " + middleInitial + ".";
+	}
 }
