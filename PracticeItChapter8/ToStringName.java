@@ -9,4 +9,8 @@ public class ToStringName {
 	public static void main(String[] args){
 		
 	}
+
+	public String toString(){
+		return firstName + " " + middleInitial + ". " + lastName;
+	}
 }
