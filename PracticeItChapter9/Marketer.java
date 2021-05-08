@@ -4,4 +4,8 @@ Write the class Marketer to accompany the other law firm classes described in th
 
 public class Marketer extends Lawyer{
 	super()
+
+	public void advertise(){
+		System.out.println("Act now, while supplies last");
+	}
 }
