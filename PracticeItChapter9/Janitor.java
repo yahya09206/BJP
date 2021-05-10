@@ -3,4 +3,8 @@ Write a class Janitor to accompany the other law firm classes described in this 
 */
 public class Janitor extends Employee {
 
+
+	public void clean(){
+		System.out.println("Workin' for the man.");
+	}
 }
