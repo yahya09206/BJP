@@ -11,4 +11,8 @@ public class HarvardLawyer extends Employee {
 	public int getVacationDays(){
 		return super.getVacationDays() + 3;
 	}
+
+	public String getVacationForm(){
+		return "pinkpinkpinkpink";
+	}
 }
