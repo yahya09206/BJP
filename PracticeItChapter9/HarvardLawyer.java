@@ -3,9 +3,8 @@ Write a class HarvardLawyer to accompany the other law firm classes described in
 */
 public class HarvardLawyer extends Employee {
 
-
 	public double getSalary(){
-		return super.getSalary() * .20;
+		return super.getSalary() * 1.2;
 	}
 
 	public int getVacationDays(){
@@ -13,6 +12,7 @@ public class HarvardLawyer extends Employee {
 	}
 
 	public String getVacationForm(){
-		return "pinkpinkpinkpink";
+		String form = super.getVacationForm();
+        return form + form + form + form;
 	}
 }
