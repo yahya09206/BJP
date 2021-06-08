@@ -23,6 +23,6 @@ public class WellFormed {
 		System.out.println("has ( and ) and usually a");
 		System.out.println("String that starts and ends");
 		System.out.println("with a \" character.");
-		System.out.println("(But we type \\\" instead!");
+		System.out.println("(But we type \\\" instead!)");
 	}
 }
