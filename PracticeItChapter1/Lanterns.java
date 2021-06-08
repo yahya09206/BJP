@@ -45,6 +45,18 @@ public class Lanterns {
 	public static void top(){
 		System.out.println("    *****");
 		System.out.println("  *********");
-		System.out.println("*************")
+		System.out.println("*************");
+	}
+
+	public static void middle(){
+		System.out.println("* | | | | | *");
+	}
+
+	public static void small(){
+		System.out.println("    *****");
+	}
+
+	public static void straight(){
+		System.out.println("*************");
 	}
 }
