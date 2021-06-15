@@ -12,9 +12,9 @@ public class NestedNumbersThree {
 			for(int j = 9; j >= 0; j--){
 				for(int k = 9; k > 10; k--){
 					// System.out.print(k%10);
-					System.out.print(j);
+					 System.out.print(j);
 				}
-				// System.out.print(j);
+				 System.out.print(j);
 			}
 			System.out.println();
 		}
