@@ -3,10 +3,11 @@ Write a method called min that takes three integers as parameters and returns th
 */
 public class Min {
 	public static void main(String[] args){
-		min(a,b,c);
+		min(1,3,4);
 	}
 
-	public static void min(int a, int b, int c){
-		
+	public static int min(int a, int b, int c){
+		int min = Math.min((Math.min(a,b)),c);
+		return min;
 	}
 }
