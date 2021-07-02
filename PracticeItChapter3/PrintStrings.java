@@ -12,7 +12,7 @@ public class PrintStrings {
 	}
 
 	public static void printStrings(String a, int num){
-		for(int i = 0; i <= num; i++){
+		for(int i = 0; i < num; i++){
 			System.out.println(a);
 		}
 	}
