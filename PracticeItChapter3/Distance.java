@@ -9,5 +9,8 @@ public class Distance {
 		distance(1, 0, 4, 4);
 		distance(10, 2, 3, 5);
 	}
-	
+
+	public double distance(int x1, int x2, int y1, int y2){
+		return Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
+	}
 }
