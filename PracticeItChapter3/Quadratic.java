@@ -20,4 +20,10 @@ public class Quadratic {
 		quadratic(1, -7, 12);
 		quadratic(1, 3, 2);
 	}
+	public static void quadratic(int a, int b, int c){
+		double r1 = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+    	double r2 = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+    	System.out.println("First root = " + r1);
+    	System.out.println("Second root = " + r2);
+	}
 }
