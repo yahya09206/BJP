@@ -15,3 +15,9 @@ Your method should accept the coefficients a, b, and c as parameters and should 
 
 Also, there should be two roots, one the result of the addition, the other, the result of the subtraction. Print the root resulting from the addition first.
 */
+public class Quadratic {
+	public static void main(String[] args){
+		quadratic(1, -7, 12);
+		quadratic(1, 3, 2);
+	}
+}
