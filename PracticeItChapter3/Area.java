@@ -5,4 +5,7 @@ public class Area {
 	public static void main(String[] args){
 		area(2.0);
 	}
+	public double area(double a){
+		return a * a * Math.PI;
+	}
 }
