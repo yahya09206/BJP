@@ -4,3 +4,14 @@ Write a method called triangleArea that accepts the three side lengths of a tria
 area = √ (s (s-a)(s-b)(s-c))
 where s = (a + b + c) / 2
 */
+public class TriangleArea {
+	public static void main(String[] args){
+		triangleArea(8, 5.2, 7.1);
+	}
+
+	public double triangleArea(double a, double b, double c){
+		double s = (a + b + c) / 2;
+		double area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
+		return area;
+	}
+}
