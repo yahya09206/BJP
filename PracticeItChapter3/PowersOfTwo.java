@@ -16,8 +16,9 @@ public class PowersOfTwo {
 	}
 
 	public static void printPowersOf2(int n){
-		for(int i = 1; i <= n; i++){
-			int powerOfTwo = (int) Math.pow(n, 2);
+		for(int i = 0; i <= n; i++){
+			System.out.print((int) Math.pow(2, i) + " ");
 		}
+		System.out.println();
 	}
 }
