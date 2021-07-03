@@ -14,4 +14,10 @@ public class PowersOfTwo {
 		printPowersOf2(3);
 		printPowersOf2(10);
 	}
+
+	public static void printPowersOf2(int n){
+		for(int i = 1; i <= n; i++){
+			int powerOfTwo = (int) Math.pow(n, 2);
+		}
+	}
 }
