@@ -7,5 +7,8 @@ public class LargestAbsValue {
 		largestAbsValue(7, -2, -11);
 		largestAbsValue(-4, 5, 2);
 	}
-	
+
+	public int largestAbsValue(int a, int b, int c){
+		return Math.max(Math.abs(a), Math.max(Math.abs(b), Math.abs(c)));
+	}
 }
