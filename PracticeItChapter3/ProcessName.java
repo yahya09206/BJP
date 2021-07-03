@@ -4,3 +4,16 @@ Write a method called processName that accepts a Scanner for the console as a pa
 Please enter your full name: Sammy Jankis
 Your name in reverse order is Jankis, Sammy
 */
+import java.util.Scanner;
+public class ProcessName {
+	public static void main(String[] args){
+
+	}
+	public static void processName(Scanner scan){
+		System.out.print("Please enter your full name: ");
+		String name = scan.nextLine();
+		String lastName = name.substring(indexOf(" "));
+		String firstName = name.substring(0, indexOf(" "));
+		System.out.println("Your name in reverse order is " + lastName + ", " + firstName);
+	}
+}
