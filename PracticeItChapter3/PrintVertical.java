@@ -15,6 +15,8 @@ public class PrintVertical {
 	}
 
 	public static void vertical(String phrase){
-		
+		for(int i = 0; i <= phrase.length() - 1; i++){
+			System.out.println(phrase.charAt(i));
+		}
 	}
 }
