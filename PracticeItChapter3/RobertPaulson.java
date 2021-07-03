@@ -13,5 +13,9 @@ public class RobertPaulson {
 
 		Scanner scan = new Scanner(System.in);
 		System.out.print("What is your phrase? ");
+		String phrase = scan.nextLine();
+		System.out.print("How many times to repeat? ");
+		int repeat = scan.nextInt();
+		for(int i = 0; i <= repeat; i++)
 	}
 }
