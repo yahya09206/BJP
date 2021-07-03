@@ -12,6 +12,6 @@ public class PromptMultiplyByTwo {
 		System.out.print("Type an integer: ");
 		int num = scan.nextInt();
 		int result = num * 2;
-		System.out.println(num + " times 2 " = result);
+		System.out.println(num + " times 2 " + result);
 	}	
 }
