@@ -9,3 +9,12 @@ n
 o
 w
 */
+public class PrintVertical {
+	public static void main(String[] args){
+		vertical("hey now");
+	}
+
+	public static void vertical(String phrase){
+		
+	}
+}
