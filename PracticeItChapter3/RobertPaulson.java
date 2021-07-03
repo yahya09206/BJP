@@ -16,6 +16,8 @@ public class RobertPaulson {
 		String phrase = scan.nextLine();
 		System.out.print("How many times to repeat? ");
 		int repeat = scan.nextInt();
-		for(int i = 0; i <= repeat; i++)
+		for(int i = 0; i <= repeat; i++){
+			System.out.println(phrase);
+		}
 	}
 }
