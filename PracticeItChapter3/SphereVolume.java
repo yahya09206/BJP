@@ -3,11 +3,3 @@ Write a method called sphereVolume that accepts a radius (a real number) as a pa
 
 volume = 4/3 π r3
 */
-public class SphereVolume {
-	public static void main(String[] args){
-		System.out.println(sphereVolume(2.0));
-	}
-	public static double sphereVolume(double r){
-		return 4 * Math.PI * r * r * r / 3;
-	}
-}

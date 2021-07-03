@@ -11,16 +11,3 @@ These calls should produce the following output:
 1 -2 4 -8 16 -32 64 -128 256
 You may assume that the exponent passed to printPowersOfN has a value of 0 or greater. (The Math class may help you with this problem. If you use it, you may need to cast its results from double to int so that you don't see a .0 after each number in your output. Also, can you write this program without using the Math class?)
 */
-public class PrintPowersOfN {
-	public static void main(String[] args){
-		printPowersOfN(4, 3);
-		printPowersOfN(5, 6);
-		printPowersOfN(-2, 8);
-	}
-	public static void printPowersOfN(int base, int exp){
-		for(int i = 0; i <= exp; i++){
-			System.out.print((int) Math.pow(base, i) + " ");
-		}
-		System.out.println();
-	}
-}

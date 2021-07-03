@@ -9,15 +9,3 @@ These calls should produce the following output:
 [1] [2] [3] [4] [5]
 You may assume that the value passed to printNumbers is 1 or greater.
 */
-public class PrintNumbers {
-	public static void main(String[] args){
-		printNumbers(15);
-		printNumbers(5);
-	}
-	public static void printNumbers(int max){
-		for(int i = 1; i <= max; i++) {
-			System.out.print("[" + i + "] ");
-		}
-		System.out.println();
-	}
-}

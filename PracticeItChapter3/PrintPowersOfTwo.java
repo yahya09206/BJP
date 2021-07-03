@@ -9,15 +9,3 @@ These calls should produce the following output:
 1 2 4 8 16 32 64 128 256 512 1024
 You may assume that the value passed to printPowersOf2 is 0 or greater. (The Math class may help you with this problem. If you use it, you may need to cast its results from double to int so that you don't see a .0 after each number in your output. Also, can you write this program without using the Math class?)
 */
-public class PrintPowersOfTwo {
-	public static void main(String[] args){
-		printPowersOf2(3);
-		printPowersOf2(10);
-	}
-	public static void printPowersOf2(int max){
-		for(int i = 0; i <= max; i++){
-			System.out.print((int) Math.pow(2, i) + " ");
-		}
-		System.out.println();
-	}
-}
