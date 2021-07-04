@@ -8,18 +8,9 @@ Next number --> 3
 Next number --> 15
 Product = 630
 */
-import java.util.*;
+import java.util.Scanner;
 public class CumulativeProduct {
 	public static void main(String[] args){
-		Scanner console = new Scanner(System.in);
-		System.out.print("How many numbers? ");
-		int num = console.nextInt();
-		int sum = 1;
-		for(int i = 1; i <= num; i++){
-			System.out.print("Next number --> ");
-			int nums = console.nextInt();
-			sum *= nums;
-		}
-		System.out.print("Product = " + sum);
+		
 	}
 }
