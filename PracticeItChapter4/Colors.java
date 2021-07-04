@@ -9,6 +9,8 @@ Unknown color: Bork
 import java.util.Scanner;
 public class Colors {
 	public static void main(String[] args){
-		
+		Scanner scan = new Scanner(System.in);
+		System.out.print("What color do you want? ");
+		String color = scan.next();
 	}
 }
