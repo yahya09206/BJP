@@ -3,10 +3,8 @@ Write a method called average that takes two integers as parameters and returns 
 */
 public class Average {
 	public static void main(String[] args){
-		average();
+		System.out.println(average());
 	}
-	public static double average(int a, int b){
-		double avg = a + b;
-		return avg / 2;
-	}
+	
+	
 }
