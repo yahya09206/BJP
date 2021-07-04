@@ -21,5 +21,6 @@ public class CumulativeProduct {
 			int nums = scan.next();
 			product *= nums;
 		}
+		System.out.println("Product = " + product);
 	}
 }
