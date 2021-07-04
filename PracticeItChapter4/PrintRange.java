@@ -17,4 +17,11 @@ public class PrintRange {
 		printRange(5, 5);
 	}
 	
+	public static void printRange(int a, int b){
+		if(a < b){
+			for(int i = 2; i <= b; i++){
+				System.out.print(i + " ");
+			}
+		}
+	}
 }
