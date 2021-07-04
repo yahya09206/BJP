@@ -12,17 +12,5 @@ public class PrintGPA {
 	public static void main(String[] args){
 		printGPA();
 	}
-	public static void printGPA(){
-		Scanner console = new Scanner(System.in);
-		System.out.print("Enter a student record: ");
-		String name = console.next();
-		int records = console.nextInt();
-		int sum = 0;
-		for(int i = 0; i <= records; i++){
-			int scores = console.nextInt();
-			sum += scores;
-		}
-		double grade = (double) sum / records;
-		System.out.print(name + "'s grade is " + grade);
-	}
+	
 }
