@@ -4,17 +4,9 @@ Write Java code to read an integer from the user, then print even if that number
 Type a number: 14
 even
 */
-import java.util.*;
-
+import java.util.Scan;
 public class EvenOdd {
 	public static void main(String[] args){
-		Scanner console = new Scanner(System.in);
-		System.out.print("Type a number: ");
-		int num = console.nextInt();
-		if (num % 2 == 0) {
-			System.out.print("even");
-		} else {
-			System.out.print("odd");
-		}
+		
 	}
 }
