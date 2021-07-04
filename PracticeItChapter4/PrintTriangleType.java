@@ -22,6 +22,8 @@ public class PrintTriangleType {
 			System.out.println("equilateral");
 		}else if(a == b || a == c || b == c){
 			System.out.println("isosceles");
+		}else {
+			System.out.println("scalene");
 		}
 	}
 }
