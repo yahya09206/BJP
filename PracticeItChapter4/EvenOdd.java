@@ -8,7 +8,7 @@ import java.util.Scan;
 public class EvenOdd {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Type a number: ");
+		System.out.print("Type a number: ");
 		int num = scan.nextInt();
 
 		if(num % 2 == 0){
