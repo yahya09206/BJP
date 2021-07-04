@@ -3,18 +3,18 @@ Write a method named repl that accepts a String and a number of repetitions as p
 */
 public class Repl {
 	public static void main(String[] args){
-		repl("hello", 3);
+		System.out.print(repl("hello", 3));
 	}
 
 	public static String repl(String word, int num){
 		String result = " ";
-		for(int i = 0; i <= num; i++){
-			if(word.length == 0){
-				result = " ";
+		for(int i = 1; i <= num; i++){
+			if(word.length() <= 0){
+				return " ";
 			}else {
 				result += word;
 			}
 		}
-		return word;
+		return result;
 	}
 }
