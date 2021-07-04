@@ -14,15 +14,16 @@ public class PrintGPA {
 	}
 	
 	public static void printGPA(){
-
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter a student record: ");
 		String name = scan.next();
 		int scores = scan.nextInt();
-		int average = 0;
+		int total = 0;
 		for(int i = 0; i <= scores; i++){
 			int grades = scan.nextInt();
-			average += grades;
+			total += grades;
 		}
+		double average = (double)total / scores;
+		System.out.println(name + "'s grade is " + average);
 	}
 }
