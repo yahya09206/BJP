@@ -3,13 +3,16 @@ Write a method named secondHalfLetters that accepts a string as its parameter an
 */
 public class SecondHalfLetters {
 	public static void main(String[] args){
-		secondHalfLetters("ruminates");
+		System.out.println(secondHalfLetters("ruminates"));
 	}
 	
-	public static String secondHalfLetters(String letters){
+	public static int secondHalfLetters(String letters){
 		int count = 0;
-		for(int i = 0; i <= letters.length(); i++){
-			if(letters.)
+		for(int i = 0; i < letters.length(); i++){
+			if(Character.toLowerCase(letters.charAt(i)) >= 'n'){
+				count++;
+			}
 		}
+		return count;
 	}
 }
