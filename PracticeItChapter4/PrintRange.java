@@ -15,16 +15,17 @@ public class PrintRange {
 		printRange(2, 7);
 		printRange(19, 11);
 		printRange(5, 5);
+		printRange(-5, 2);
 	}
 	
 	public static void printRange(int a, int b){
 		if(a < b){
-			for(int i = 2; i <= b; i++){
+			for(int i = a; i <= b; i++){
 				System.out.print(i + " ");
 			}
 			System.out.println();
 		}else if(a > b){
-			for(int i = 19; i >= b; i--){
+			for(int i = a; i >= b; i--){
 				System.out.print(i + " ");
 			}
 			System.out.println();
