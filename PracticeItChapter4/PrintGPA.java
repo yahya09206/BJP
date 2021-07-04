@@ -20,5 +20,9 @@ public class PrintGPA {
 		String name = scan.next();
 		int scores = scan.nextInt();
 		int average = 0;
+		for(int i = 0; i <= scores; i++){
+			int grades = scan.nextInt();
+			average += grades;
+		}
 	}
 }
