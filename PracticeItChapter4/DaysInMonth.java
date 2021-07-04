@@ -8,13 +8,5 @@ public class DaysInMonth {
 	public static void main(String[] args){
 		System.out.print(daysInMonth(9));
 	}
-	public static int daysInMonth(int n){
-		if(n == 1 || n == 3 || n == 5 || n == 7 || n == 8 || n == 10 || n == 12){
-			return 31;
-		}else if(n == 2){
-			return 28;
-		}else {
-			return 30;
-		}
-	}
+	
 }
