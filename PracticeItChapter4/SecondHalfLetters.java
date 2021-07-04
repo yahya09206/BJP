@@ -5,13 +5,5 @@ public class SecondHalfLetters {
 	public static void main(String[] args){
 		secondHalfLetters("ruminates");
 	}
-	public static int secondHalfLetters(String name){
-		int count = 0;
-		for(int i = 0; i < name.length(); i++){
-			if(Character.toLowerCase(name.charAt(i)) >= 'n'){
-				count++;
-			}
-		}
-		return count;
-	}
+	
 }
