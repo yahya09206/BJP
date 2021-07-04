@@ -7,6 +7,14 @@ public class Repl {
 	}
 
 	public static String repl(String word, int num){
-		
+		String result = " ";
+		for(int i = 0; i <= num; i++){
+			if(word.length == 0){
+				result = " ";
+			}else {
+				result += word;
+			}
+		}
+		return word;
 	}
 }
