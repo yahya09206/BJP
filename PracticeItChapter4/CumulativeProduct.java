@@ -15,9 +15,9 @@ public class CumulativeProduct {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("How many numbers? ");
 		int num = scan.nextInt();
-		int product = 0;
+		int product = 1;
 		for(int i = 0; i <= num; i++){
-			System.out.print("Next number ---> ");
+			System.out.print("Next number --> ");
 			int nums = scan.nextInt();
 			product *= nums;
 		}
