@@ -18,5 +18,7 @@ public class PrintGPA {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter a student record: ");
 		String name = scan.next();
+		int scores = scan.nextInt();
+		int average = 0;
 	}
 }
