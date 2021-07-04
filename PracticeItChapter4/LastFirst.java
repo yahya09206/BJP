@@ -7,5 +7,7 @@ public class LastFirst {
 	}
 	public static String lastFirst(String name){
 		String lastName = name.substring(name.indexOf(" "));
+		String firstName = name.substring(2);
+		return
 	}
 }
