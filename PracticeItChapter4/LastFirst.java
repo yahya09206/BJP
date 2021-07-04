@@ -5,9 +5,5 @@ public class LastFirst {
 	public static void main(String[] args){
 		System.out.print(lastFirst("Marla Singer"));
 	}
-	public static String lastFirst(String name){
-		String lastName = name.substring(name.indexOf(" ") + 1);
-		String firstInit = name.substring(0, 1);
-		return lastName + ", " + firstInit + ".";
-	}
+	
 }
