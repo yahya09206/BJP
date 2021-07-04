@@ -3,11 +3,10 @@ Write a method called average that takes two integers as parameters and returns 
 */
 public class Average {
 	public static void main(String[] args){
-		System.out.println(average(2, 2));
+		System.out.println(average());
 	}
-	
-	public static int average(int a, int b){
-		int sum = a + b;
-		return (double) sum / 2;
+	public static double average(int a, int b){
+		double avg = a + b;
+		return avg / 2;
 	}
 }
