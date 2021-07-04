@@ -6,7 +6,10 @@ public class PrintAcronym {
 		printAcronym("Breath of the Wild");
 	}
 	public static void printAcronym(String phrase){
-		String firstLetter = phrase.substring(0,1);
+		String result = "";
+		for(int i = 0; i <= phrase.length(); i++){
+			String firstLetter = phrase.substring(0,1);
+		}
 		System.out.print(firstLetter);
 	}
 }
