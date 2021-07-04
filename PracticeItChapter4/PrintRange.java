@@ -27,6 +27,9 @@ public class PrintRange {
 			for(int i = 19; i >= b; i--){
 				System.out.print(i + " ");
 			}
+			System.out.println();
+		}else {
+			System.out.print(a);
 		}
 	}
 }
