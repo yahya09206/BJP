@@ -7,10 +7,16 @@ Enter a student record: Jordan 4 86 71 62 90
 Jordan's grade is 77.25
 For example, Maria's grade is 82.8 because her average of (72 + 91 + 84 + 89 + 78) / 5 equals 82.8. Use a Scanner for user input.
 */
-import java.util.*;
+import java.util.Scanner;
 public class PrintGPA {
 	public static void main(String[] args){
 		printGPA();
 	}
 	
+	public static void printGPA(){
+
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Enter a student record: ");
+		String name = scan.next();
+	}
 }
