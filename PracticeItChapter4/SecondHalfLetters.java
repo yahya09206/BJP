@@ -6,4 +6,10 @@ public class SecondHalfLetters {
 		secondHalfLetters("ruminates");
 	}
 	
+	public static String secondHalfLetters(String letters){
+		int count = 0;
+		for(int i = 0; i <= letters.length(); i++){
+			if(letters.)
+		}
+	}
 }
