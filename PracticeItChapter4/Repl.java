@@ -7,10 +7,10 @@ public class Repl {
 	}
 
 	public static String repl(String word, int num){
-		String result = " ";
+		String result = "";
 		for(int i = 1; i <= num; i++){
 			if(word.length() <= 0){
-				return " ";
+				return "";
 			}else {
 				result += word;
 			}
